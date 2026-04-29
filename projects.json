@@ -1,0 +1,19 @@
+{
+  "org": "riverside-pirates",
+  "projects": [
+    {
+      "name": "repac",
+      "description": "Riverside's flagship project — the central hub for school events, announcements, and student resources.",
+      "repoUrl": "https://github.com/riverside-pirates/repac",
+      "status": "active",
+      "activeBounties": []
+    },
+    {
+      "name": "computer-science-essentials",
+      "description": "CS Essentials course materials, assignments, and student projects.",
+      "repoUrl": "https://github.com/riverside-pirates/computer-science-essentials",
+      "status": "active",
+      "activeBounties": []
+    }
+  ]
+}

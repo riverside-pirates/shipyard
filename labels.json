@@ -1,0 +1,73 @@
+{
+  "difficulty": [
+    {
+      "name": "easy",
+      "color": "0E8A16",
+      "description": "Easy enough for a cabin boy"
+    },
+    {
+      "name": "medium",
+      "color": "FBCA04",
+      "description": "A fair challenge for any deckhand"
+    },
+    {
+      "name": "hard",
+      "color": "D93F0B",
+      "description": "Only seasoned pirates need apply"
+    },
+    {
+      "name": "legendary",
+      "color": "B60205",
+      "description": "A quest worthy of the Pirate King"
+    }
+  ],
+  "type": [
+    {
+      "name": "bug",
+      "color": "D73A4A",
+      "description": "Something's rotten in the cargo hold"
+    },
+    {
+      "name": "feature",
+      "color": "0075CA",
+      "description": "New rigging for the ship"
+    },
+    {
+      "name": "docs",
+      "color": "0075CA",
+      "description": "Update the captain's log"
+    },
+    {
+      "name": "design",
+      "color": "C5DEF5",
+      "description": "Chart a new course for the UI"
+    },
+    {
+      "name": "meta",
+      "color": "BFD4F2",
+      "description": "Ship maintenance and crew coordination"
+    }
+  ],
+  "status": [
+    {
+      "name": "available",
+      "color": "0E8A16",
+      "description": "Unclaimed bounty — ready for the taking"
+    },
+    {
+      "name": "claimed",
+      "color": "FBCA04",
+      "description": "A pirate has hoisted the flag on this one"
+    },
+    {
+      "name": "in-progress",
+      "color": "1D76DB",
+      "description": "Crew is on deck and working"
+    },
+    {
+      "name": "review-needed",
+      "color": "D876E3",
+      "description": "Ready for the captain's inspection"
+    }
+  ]
+}
