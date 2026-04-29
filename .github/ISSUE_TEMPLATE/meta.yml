@@ -1,0 +1,30 @@
+name: "Meta — Shipyard Improvement"
+description: "Suggest improvements to the Shipyard system itself"
+labels: ["meta"]
+body:
+  - type: textarea
+    id: what-to-change
+    attributes:
+      label: What to change about Shipyard
+      description: Which part of the Shipyard system could be better?
+      placeholder: Describe the workflow, template, automation, or process you'd like to change.
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: What problem does this solve or what does it improve?
+      placeholder: Explain the reasoning behind the change.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-approach
+    attributes:
+      label: Proposed approach
+      description: Have a plan in mind? Sketch it out here.
+      placeholder: Optional — describe how you'd implement this.
+    validations:
+      required: false

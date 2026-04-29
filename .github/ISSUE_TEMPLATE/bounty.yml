@@ -1,0 +1,70 @@
+name: "Bounty"
+description: "Post a new bounty for the crew to tackle"
+title: "[Bounty] "
+labels: ["bounty", "available"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What needs to be done?
+      placeholder: Describe the task clearly so anyone can pick it up.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Difficulty
+      description: How challenging is this bounty?
+      options:
+        - Easy
+        - Medium
+        - Hard
+        - Legendary
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: skills
+    attributes:
+      label: Skills needed
+      description: Check all that apply.
+      options:
+        - label: HTML/CSS
+        - label: JavaScript
+        - label: Python
+        - label: Git
+        - label: Writing/Docs
+        - label: Design
+        - label: Testing
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance criteria
+      description: How do we know this bounty is complete?
+      placeholder: |
+        - [ ] Criterion one
+        - [ ] Criterion two
+    validations:
+      required: true
+
+  - type: dropdown
+    id: project
+    attributes:
+      label: Which project?
+      description: What project does this bounty belong to?
+      options:
+        - repac
+        - computer-science-essentials
+        - shipyard
+        - other
+
+  - type: textarea
+    id: extra-context
+    attributes:
+      label: Extra context
+      description: Links, screenshots, or anything else that might help.
+    validations:
+      required: false

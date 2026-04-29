@@ -1,0 +1,30 @@
+name: "Improvement Idea"
+description: "Suggest a way to make something better"
+labels: ["idea"]
+body:
+  - type: textarea
+    id: what-to-improve
+    attributes:
+      label: What to improve
+      description: What existing feature or area could be better?
+      placeholder: Describe what you think needs improvement.
+    validations:
+      required: true
+
+  - type: textarea
+    id: why-it-matters
+    attributes:
+      label: Why it matters
+      description: Why would this improvement help the crew?
+      placeholder: Explain the impact or benefit.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-approach
+    attributes:
+      label: Proposed approach
+      description: Got an idea for how to tackle it? Share it here.
+      placeholder: Optional — describe your suggested approach.
+    validations:
+      required: false

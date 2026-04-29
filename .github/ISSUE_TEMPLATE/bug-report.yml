@@ -1,0 +1,41 @@
+name: "Bug Report"
+description: "Something's broken — report it here"
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: Describe the bug you ran into.
+      placeholder: What went wrong?
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: What you expected
+      description: What should have happened instead?
+      placeholder: Describe the correct behavior.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Help us recreate the issue.
+      placeholder: |
+        1. Go to ...
+        2. Click on ...
+        3. See the error
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain the problem.
+    validations:
+      required: false
