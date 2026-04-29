@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Shipyard — Activity Dashboard</title>
+
+  <!-- Our custom styles for the pirate-themed dashboard -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============================================================
+       HEADER
+       The main title bar for the dashboard. We use <header> for
+       semantic meaning — screen readers and search engines
+       understand this is the page's banner.
+       ============================================================ -->
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">&#9875; The Shipyard</h1>
+      <p class="site-subtitle">Activity Dashboard — Riverside Pirates</p>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       MAIN CONTENT
+       Everything inside <main> is the primary content of the page.
+       We use id attributes so our JavaScript can find each section
+       and fill it with data.
+       ============================================================ -->
+  <main class="container">
+
+    <!-- STATS SUMMARY ––––––––––––––––––––––––––––––––––––––––––––
+         Quick numbers at-a-glance: total bounties, contributors,
+         and pull requests. These cards get populated by app.js.
+         –––––––––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <section id="stats-summary" class="stats-grid" aria-label="Summary statistics">
+      <div class="stat-card">
+        <span class="stat-number" id="stat-bounties">—</span>
+        <span class="stat-label">Total Bounties</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number" id="stat-contributors">—</span>
+        <span class="stat-label">Contributors</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number" id="stat-prs">—</span>
+        <span class="stat-label">Pull Requests</span>
+      </div>
+    </section>
+
+    <!-- RECENT SHIPS ––––––––––––––––––––––––––––––––––––––––––––
+         "Ships" = merged pull requests. This list shows the most
+         recent contributions that have been accepted into the
+         project.
+         –––––––––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <section id="recent-ships" aria-label="Recently merged pull requests">
+      <h2 class="section-title">Recent Ships</h2>
+      <p class="section-description">Merged pull requests — contributions that have set sail!</p>
+      <div id="ships-list" class="card-list">
+        <!-- app.js fills this in -->
+        <p class="loading-message">Loading recent ships...</p>
+      </div>
+    </section>
+
+    <!-- OPEN BOUNTIES –––––––––––––––––––––––––––––––––––––––––––
+         Bounties are tasks/issues that students can pick up and
+         work on. Each bounty has a title, description, and
+         difficulty label.
+         –––––––––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <section id="open-bounties" aria-label="Open bounties available to work on">
+      <h2 class="section-title">Open Bounties</h2>
+      <p class="section-description">Tasks up for grabs — claim one and start contributing!</p>
+      <div id="bounties-list" class="card-list">
+        <!-- app.js fills this in -->
+        <p class="loading-message">Loading bounties...</p>
+      </div>
+    </section>
+
+    <!-- CONTRIBUTORS –––––––––––––––––––––––––––––––––––––––––––
+         A list of everyone who has contributed to the project.
+         Shows their name, number of contributions, and when they
+         joined.
+         –––––––––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <section id="contributors" aria-label="Project contributors">
+      <h2 class="section-title">Contributors</h2>
+      <p class="section-description">The crew that keeps this ship sailing.</p>
+      <div id="contributors-list" class="contributors-grid">
+        <!-- app.js fills this in -->
+        <p class="loading-message">Loading contributors...</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       NOSCRIPT FALLBACK
+       If someone has JavaScript turned off in their browser, they
+       see this message instead of a broken page.
+       ============================================================ -->
+  <noscript>
+    <div class="noscript-banner">
+      <p><strong>JavaScript is required.</strong> This dashboard uses JavaScript to load and display data. Please enable JavaScript in your browser settings to view the Shipyard Activity Dashboard.</p>
+    </div>
+  </noscript>
+
+  <!-- ============================================================
+       FOOTER
+       A simple footer with a link back to the Shipyard repository.
+       ============================================================ -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        Riverside Pirates &mdash; The Shipyard
+        &bull;
+        <a href="https://github.com/riverside-pirates/shipyard" target="_blank" rel="noopener noreferrer">
+          View the Shipyard Repo
+        </a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Our JavaScript — loaded at the end so the HTML is ready first -->
+  <script src="app.js"></script>
+
+</body>
+</html>
