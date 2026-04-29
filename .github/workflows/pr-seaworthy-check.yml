@@ -1,0 +1,87 @@
+name: Sea-Worthy Check
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize]
+
+jobs:
+  checklist-review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Review PR checklist
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const pr = context.payload.pull_request;
+            const body = pr.body || '';
+            const requiredChecked = 3;
+
+            // Count completed checklist items
+            const checkedItems = (body.match(/- \[x\]/gi) || []).length;
+            const uncheckedItems = (body.match(/- \[ \]/g) || []).length;
+            const totalItems = checkedItems + uncheckedItems;
+
+            console.log(`Checklist: ${checkedItems} checked, ${uncheckedItems} unchecked, ${totalItems} total`);
+
+            // Check if the bot has already commented on this PR
+            const comments = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: pr.number,
+            });
+
+            const botComment = comments.data.find(
+              (c) =>
+                c.user.type === 'Bot' &&
+                c.body.includes('<!-- sea-worthy-check -->')
+            );
+
+            let commentBody = '';
+
+            if (checkedItems < requiredChecked) {
+              commentBody = [
+                '<!-- sea-worthy-check -->',
+                `Ahoy @${pr.user.login}! Before this PR is ready to set sail, the crew needs a bit more from ye.`,
+                '',
+                `Your PR checklist has **${checkedItems}** of at least **${requiredChecked}** items checked off.`,
+                '',
+                'Make sure ye have filled out the checklist in the PR description so the reviewers know your ship is sea-worthy!',
+                '',
+                "Don't worry, this won't block ye — just a friendly reminder from the quartermaster. Keep at it, matey!",
+              ].join('\n');
+            } else {
+              // Checklist looks good
+              if (botComment) {
+                // Update previous reminder to show things are resolved
+                commentBody = [
+                  '<!-- sea-worthy-check -->',
+                  `Arrr @${pr.user.login}! Your checklist is looking ship-shape now with **${checkedItems}** items checked!`,
+                  '',
+                  'The quartermaster approves. Smooth sailing ahead!',
+                ].join('\n');
+              } else {
+                // No previous comment and checklist is fine — nothing to do
+                console.log('Checklist looks good and no previous comment found. Nothing to do.');
+                return;
+              }
+            }
+
+            if (botComment) {
+              // Update existing comment for idempotency
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: botComment.id,
+                body: commentBody,
+              });
+              console.log('Updated existing bot comment.');
+            } else {
+              // Create new comment
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: pr.number,
+                body: commentBody,
+              });
+              console.log('Created new bot comment.');
+            }

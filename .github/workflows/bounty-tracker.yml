@@ -1,0 +1,51 @@
+name: Bounty Tracker
+
+on:
+  issues:
+    types: [closed]
+
+jobs:
+  celebrate-bounty:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check for linked PR and celebrate
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.payload.issue;
+
+            // Search for PRs that reference this issue and were merged
+            const timeline = await github.rest.issues.listEventsForTimeline({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue.number,
+            });
+
+            const closedByMerge = timeline.data.some(
+              (event) =>
+                event.event === 'cross-referenced' &&
+                event.source?.issue?.pull_request?.merged_at != null
+            );
+
+            if (!closedByMerge) {
+              console.log('Issue was not closed via a merged PR. Skipping.');
+              return;
+            }
+
+            const closer = issue.user.login;
+            const closedBy = context.payload.sender.login;
+
+            const messages = [
+              `Ahoy @${closedBy}! This bounty has been claimed and shipped! The crew salutes your efforts!`,
+              `Shiver me timbers, @${closedBy}! Ye've conquered this bounty like a true pirate! Fair winds to ye!`,
+              `Arrr, @${closedBy}! Another bounty plundered and stowed in the hold! The captain is pleased!`,
+            ];
+
+            const message = messages[Math.floor(Math.random() * messages.length)];
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue.number,
+              body: `🏴‍☠️ ${message}\n\nThis bounty was closed via a merged pull request. Great work, matey!`,
+            });
