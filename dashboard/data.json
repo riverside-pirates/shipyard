@@ -1,0 +1,35 @@
+{
+  "lastUpdated": "2026-05-03T02:24:42.653Z",
+  "recentPRs": [
+    {
+      "title": "Resolve FAQ placeholders: add donation and contact",
+      "repo": "repac",
+      "author": "jasperdps",
+      "url": "https://github.com/riverside-pirates/repac/pull/22",
+      "mergedAt": "2026-04-27T19:20:20Z"
+    }
+  ],
+  "recentBounties": [
+    {
+      "title": "Add quick links to new website",
+      "repo": "repac",
+      "status": "duplicate",
+      "url": "https://github.com/riverside-pirates/repac/issues/29"
+    },
+    {
+      "title": "Placeholders in repac faq",
+      "repo": "repac",
+      "status": "completed",
+      "url": "https://github.com/riverside-pirates/repac/issues/19"
+    },
+    {
+      "title": "PRs should generate static preview of site for review",
+      "repo": "repac",
+      "status": "not_planned",
+      "url": "https://github.com/riverside-pirates/repac/issues/16"
+    }
+  ],
+  "contributors": [
+    "jasperdps"
+  ]
+}
