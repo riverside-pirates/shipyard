@@ -1,6 +1,16 @@
 {
-  "lastUpdated": "2026-05-24T02:42:35.571Z",
-  "recentPRs": [],
+  "lastUpdated": "2026-05-31T02:52:14.627Z",
+  "recentPRs": [
+    {
+      "title": "Add header and multiple career problem statements from contributors",
+      "repo": "computer-science-essentials",
+      "author": "drews",
+      "url": "https://github.com/riverside-pirates/computer-science-essentials/pull/28",
+      "mergedAt": "2026-05-27T19:32:42Z"
+    }
+  ],
   "recentBounties": [],
-  "contributors": []
+  "contributors": [
+    "drews"
+  ]
 }
