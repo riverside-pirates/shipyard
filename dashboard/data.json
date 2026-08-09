@@ -1,6 +1,16 @@
 {
-  "lastUpdated": "2026-08-02T02:08:35.911Z",
-  "recentPRs": [],
+  "lastUpdated": "2026-08-09T01:12:11.102Z",
+  "recentPRs": [
+    {
+      "title": "Document intended vs. actual production state in README",
+      "repo": "repac",
+      "author": "drews",
+      "url": "https://github.com/riverside-pirates/repac/pull/62",
+      "mergedAt": "2026-08-06T19:07:05Z"
+    }
+  ],
   "recentBounties": [],
-  "contributors": []
+  "contributors": [
+    "drews"
+  ]
 }
