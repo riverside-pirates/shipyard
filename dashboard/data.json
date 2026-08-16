@@ -1,15 +1,69 @@
 {
-  "lastUpdated": "2026-08-09T01:12:11.102Z",
+  "lastUpdated": "2026-08-16T00:55:29.203Z",
   "recentPRs": [
     {
-      "title": "Document intended vs. actual production state in README",
+      "title": "Remove UNOFFICIAL DRAFT dev banner for launch",
       "repo": "repac",
       "author": "drews",
-      "url": "https://github.com/riverside-pirates/repac/pull/62",
-      "mergedAt": "2026-08-06T19:07:05Z"
+      "url": "https://github.com/riverside-pirates/repac/pull/58",
+      "mergedAt": "2026-08-14T02:11:36Z"
+    },
+    {
+      "title": "Reconcile the preview branch's content into main",
+      "repo": "repac",
+      "author": "drews",
+      "url": "https://github.com/riverside-pirates/repac/pull/72",
+      "mergedAt": "2026-08-12T18:03:16Z"
+    },
+    {
+      "title": "Simplify deployment docs",
+      "repo": "repac",
+      "author": "drews",
+      "url": "https://github.com/riverside-pirates/repac/pull/65",
+      "mergedAt": "2026-08-12T15:16:36Z"
+    },
+    {
+      "title": "Record that the legacy site hosts live PDFs (§6)",
+      "repo": "repac",
+      "author": "drews",
+      "url": "https://github.com/riverside-pirates/repac/pull/68",
+      "mergedAt": "2026-08-11T21:07:18Z"
+    },
+    {
+      "title": "Add TODO.md backlog file",
+      "repo": "repac",
+      "author": "drews",
+      "url": "https://github.com/riverside-pirates/repac/pull/63",
+      "mergedAt": "2026-08-11T21:05:30Z"
+    },
+    {
+      "title": "Add Wix-Managed Headless wrapper + local owner-run deploy (no CI)",
+      "repo": "repac",
+      "author": "drews",
+      "url": "https://github.com/riverside-pirates/repac/pull/53",
+      "mergedAt": "2026-08-10T20:49:13Z"
     }
   ],
-  "recentBounties": [],
+  "recentBounties": [
+    {
+      "title": "Fill donate + contact placeholders on REPAC FAQ",
+      "repo": "repac",
+      "status": "completed",
+      "url": "https://github.com/riverside-pirates/repac/issues/56"
+    },
+    {
+      "title": "Fill Executive Board roster on About page",
+      "repo": "repac",
+      "status": "completed",
+      "url": "https://github.com/riverside-pirates/repac/issues/55"
+    },
+    {
+      "title": "Remove UNOFFICIAL DRAFT dev banner before launch",
+      "repo": "repac",
+      "status": "completed",
+      "url": "https://github.com/riverside-pirates/repac/issues/54"
+    }
+  ],
   "contributors": [
     "drews"
   ]
