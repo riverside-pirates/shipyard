@@ -1,23 +1,6 @@
 {
-  "lastUpdated": "2026-08-23T00:56:41.541Z",
-  "recentPRs": [
-    {
-      "title": "Switch site palette to Riverside purple and gold",
-      "repo": "repac",
-      "author": "drews",
-      "url": "https://github.com/riverside-pirates/repac/pull/73",
-      "mergedAt": "2026-08-17T02:52:56Z"
-    },
-    {
-      "title": "Add PR check: internal + external links resolve",
-      "repo": "repac",
-      "author": "drews",
-      "url": "https://github.com/riverside-pirates/repac/pull/67",
-      "mergedAt": "2026-08-17T01:41:58Z"
-    }
-  ],
+  "lastUpdated": "2026-08-30T03:01:58.414Z",
+  "recentPRs": [],
   "recentBounties": [],
-  "contributors": [
-    "drews"
-  ]
+  "contributors": []
 }
