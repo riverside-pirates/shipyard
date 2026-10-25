@@ -1,6 +1,44 @@
 {
-  "lastUpdated": "2026-10-18T00:19:12.968Z",
-  "recentPRs": [],
+  "lastUpdated": "2026-10-25T00:19:22.044Z",
+  "recentPRs": [
+    {
+      "title": "Fix five glossary definitions",
+      "repo": "computer-science-essentials",
+      "author": "drews",
+      "url": "https://github.com/riverside-pirates/computer-science-essentials/pull/32",
+      "mergedAt": "2026-10-18T23:08:30Z"
+    },
+    {
+      "title": "Add course tool ideas from Shipyard brainstorm",
+      "repo": "computer-science-essentials",
+      "author": "drews",
+      "url": "https://github.com/riverside-pirates/computer-science-essentials/pull/29",
+      "mergedAt": "2026-10-18T21:58:39Z"
+    },
+    {
+      "title": "Add CS essentials glossary",
+      "repo": "computer-science-essentials",
+      "author": "drews",
+      "url": "https://github.com/riverside-pirates/computer-science-essentials/pull/24",
+      "mergedAt": "2026-10-18T21:49:42Z"
+    },
+    {
+      "title": "Link the Classroom 50 course page and student guides",
+      "repo": "computer-science-essentials",
+      "author": "drews",
+      "url": "https://github.com/riverside-pirates/computer-science-essentials/pull/31",
+      "mergedAt": "2026-10-18T21:27:47Z"
+    },
+    {
+      "title": "Add shared student guides for Git Foundations",
+      "repo": "computer-science-essentials",
+      "author": "drews",
+      "url": "https://github.com/riverside-pirates/computer-science-essentials/pull/30",
+      "mergedAt": "2026-10-18T19:02:52Z"
+    }
+  ],
   "recentBounties": [],
-  "contributors": []
+  "contributors": [
+    "drews"
+  ]
 }
