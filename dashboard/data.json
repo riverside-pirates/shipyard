@@ -1,40 +1,26 @@
 {
-  "lastUpdated": "2026-10-25T00:19:22.044Z",
+  "lastUpdated": "2026-11-01T00:14:42.138Z",
   "recentPRs": [
     {
-      "title": "Fix five glossary definitions",
+      "title": "Add shared pirate-ship Codespaces image",
       "repo": "computer-science-essentials",
       "author": "drews",
-      "url": "https://github.com/riverside-pirates/computer-science-essentials/pull/32",
-      "mergedAt": "2026-10-18T23:08:30Z"
+      "url": "https://github.com/riverside-pirates/computer-science-essentials/pull/37",
+      "mergedAt": "2026-10-30T19:41:52Z"
     },
     {
-      "title": "Add course tool ideas from Shipyard brainstorm",
+      "title": "Rewrite student guides for a Codespaces-only classroom",
       "repo": "computer-science-essentials",
       "author": "drews",
-      "url": "https://github.com/riverside-pirates/computer-science-essentials/pull/29",
-      "mergedAt": "2026-10-18T21:58:39Z"
+      "url": "https://github.com/riverside-pirates/computer-science-essentials/pull/38",
+      "mergedAt": "2026-10-30T19:41:16Z"
     },
     {
-      "title": "Add CS essentials glossary",
+      "title": "Rewrite the glossary for this classroom and move it into guides/",
       "repo": "computer-science-essentials",
       "author": "drews",
-      "url": "https://github.com/riverside-pirates/computer-science-essentials/pull/24",
-      "mergedAt": "2026-10-18T21:49:42Z"
-    },
-    {
-      "title": "Link the Classroom 50 course page and student guides",
-      "repo": "computer-science-essentials",
-      "author": "drews",
-      "url": "https://github.com/riverside-pirates/computer-science-essentials/pull/31",
-      "mergedAt": "2026-10-18T21:27:47Z"
-    },
-    {
-      "title": "Add shared student guides for Git Foundations",
-      "repo": "computer-science-essentials",
-      "author": "drews",
-      "url": "https://github.com/riverside-pirates/computer-science-essentials/pull/30",
-      "mergedAt": "2026-10-18T19:02:52Z"
+      "url": "https://github.com/riverside-pirates/computer-science-essentials/pull/35",
+      "mergedAt": "2026-10-29T18:39:06Z"
     }
   ],
   "recentBounties": [],
