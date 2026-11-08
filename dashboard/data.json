@@ -1,26 +1,12 @@
 {
-  "lastUpdated": "2026-11-01T00:14:42.138Z",
+  "lastUpdated": "2026-11-08T00:12:59.341Z",
   "recentPRs": [
     {
-      "title": "Add shared pirate-ship Codespaces image",
-      "repo": "computer-science-essentials",
+      "title": "Trim off-course glossary terms",
+      "repo": "computer-science",
       "author": "drews",
-      "url": "https://github.com/riverside-pirates/computer-science-essentials/pull/37",
-      "mergedAt": "2026-10-30T19:41:52Z"
-    },
-    {
-      "title": "Rewrite student guides for a Codespaces-only classroom",
-      "repo": "computer-science-essentials",
-      "author": "drews",
-      "url": "https://github.com/riverside-pirates/computer-science-essentials/pull/38",
-      "mergedAt": "2026-10-30T19:41:16Z"
-    },
-    {
-      "title": "Rewrite the glossary for this classroom and move it into guides/",
-      "repo": "computer-science-essentials",
-      "author": "drews",
-      "url": "https://github.com/riverside-pirates/computer-science-essentials/pull/35",
-      "mergedAt": "2026-10-29T18:39:06Z"
+      "url": "https://github.com/riverside-pirates/computer-science/pull/2",
+      "mergedAt": "2026-11-01T06:02:49Z"
     }
   ],
   "recentBounties": [],
