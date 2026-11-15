@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-11-08T00:12:59.341Z",
+  "lastUpdated": "2026-11-15T00:12:29.095Z",
   "recentPRs": [
     {
-      "title": "Trim off-course glossary terms",
-      "repo": "computer-science",
+      "title": "Add public org profile README",
+      "repo": ".github",
       "author": "drews",
-      "url": "https://github.com/riverside-pirates/computer-science/pull/2",
-      "mergedAt": "2026-11-01T06:02:49Z"
+      "url": "https://github.com/riverside-pirates/.github/pull/1",
+      "mergedAt": "2026-11-11T18:56:32Z"
     }
   ],
   "recentBounties": [],
