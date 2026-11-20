@@ -18,7 +18,7 @@ All of our code lives in separate repos across the `riverside-pirates` GitHub or
 
 1. **Pick a Bounty** -- Browse open issues labeled `bounty` to find something that interests you.
 2. **Build** -- Fork or branch, write your code, test it, and commit.
-3. **Dry Dock** -- Open a Pull Request. Reviewers (classmates and Mr. B) check your work.
+3. **Dry Dock** -- Open a Pull Request. Reviewers (classmates and Mr. Byers) check your work.
 4. **Sea-Worthy** -- Your PR passes review and meets the checklist below.
 5. **Ship It** -- Your code gets merged. Nice work, pirate.
 
@@ -30,7 +30,7 @@ Bounties are GitHub Issues that describe a piece of work that needs to be done. 
 - **Labels** that tell you the difficulty, the repo it belongs to, and the type of work (bug fix, new feature, documentation, etc.)
 - **Acceptance criteria** so you know exactly when you're done
 
-To claim a bounty, comment on the issue saying you'd like to work on it. Mr. B or a reviewer will assign it to you. One bounty per person at a time -- finish what you start before grabbing the next one.
+To claim a bounty, comment on the issue saying you'd like to work on it. Mr. Byers or a reviewer will assign it to you. One bounty per person at a time -- finish what you start before grabbing the next one.
 
 ## Our Repos
 
@@ -59,7 +59,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full checklist and detailed steps
 
 ## Getting Started
 
-1. **Join the org.** Mr. B will add you to the `riverside-pirates` GitHub org.
+1. **Join the org.** Mr. Byers will add you to the `riverside-pirates` GitHub org.
 2. **Read [CONTRIBUTING.md](CONTRIBUTING.md).** It walks you through everything step by step.
 3. **Find a bounty.** Look for issues labeled `bounty` in this repo or any of the project repos.
 4. **Ask questions.** If you're stuck, comment on the issue or ask in class. Nobody expects you to know everything already.

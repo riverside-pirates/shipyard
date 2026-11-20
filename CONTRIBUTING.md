@@ -40,7 +40,7 @@ Found something you want to work on? Here's how to claim it:
 
 1. Read the full issue description and any acceptance criteria.
 2. **Comment on the issue** saying you'd like to take it on. Something like: *"I'd like to work on this!"*
-3. Wait for Mr. B or a reviewer to assign it to you.
+3. Wait for Mr. Byers or a reviewer to assign it to you.
 4. Once assigned, it's yours. Work on one bounty at a time.
 
 If you get stuck or realize you can't finish, that's okay. Just comment on the issue to let people know so someone else can pick it up.
@@ -130,7 +130,7 @@ Closes #12
 
 ## Respond to Feedback
 
-After you open a PR, reviewers (classmates and Mr. B) will look at your code. They might:
+After you open a PR, reviewers (classmates and Mr. Byers) will look at your code. They might:
 
 - **Approve it** -- you're good to go, it'll get merged.
 - **Request changes** -- they'll leave comments explaining what to fix.
@@ -274,7 +274,7 @@ git checkout my-branch-name
 git merge main
 ```
 
-If you run into merge conflicts, ask for help. Mr. B or a classmate can walk you through resolving them.
+If you run into merge conflicts, ask for help. Mr. Byers or a classmate can walk you through resolving them.
 
 ## Collaboration Expectations
 
@@ -287,7 +287,7 @@ We're all learning here, and we're on the same crew. A few ground rules:
 
 ### Ask Questions
 - There are no dumb questions. If you don't understand something, ask.
-- Comment on the issue, ask in class, or message Mr. B.
+- Comment on the issue, ask in class, or message Mr. Byers.
 - If you see someone else stuck, offer to help.
 
 ### Iterate
@@ -302,4 +302,4 @@ We're all learning here, and we're on the same crew. A few ground rules:
 
 ---
 
-Questions about anything in this guide? Ask Mr. B or open an issue in Shipyard. That's what it's here for.
+Questions about anything in this guide? Ask Mr. Byers or open an issue in Shipyard. That's what it's here for.
