@@ -1,16 +1,35 @@
 {
-  "lastUpdated": "2026-11-15T00:12:29.095Z",
+  "lastUpdated": "2026-11-22T00:12:33.796Z",
   "recentPRs": [
     {
-      "title": "Add public org profile README",
-      "repo": ".github",
-      "author": "drews",
-      "url": "https://github.com/riverside-pirates/.github/pull/1",
-      "mergedAt": "2026-11-11T18:56:32Z"
+      "title": "Major update: correct site facts, 2026-27 board, and docs for the live site",
+      "repo": "repac",
+      "author": "jasperdps",
+      "url": "https://github.com/riverside-pirates/repac/pull/76",
+      "mergedAt": "2026-11-18T12:51:43Z"
     }
   ],
-  "recentBounties": [],
+  "recentBounties": [
+    {
+      "title": "Major update: correct site facts, 2026-27 board, and bring docs up to date with the live site",
+      "repo": "repac",
+      "status": "completed",
+      "url": "https://github.com/riverside-pirates/repac/issues/75"
+    },
+    {
+      "title": "engineering-faq.html links to the legacy site by absolute URL — breaks at cutover",
+      "repo": "repac",
+      "status": "completed",
+      "url": "https://github.com/riverside-pirates/repac/issues/70"
+    },
+    {
+      "title": "Dead source link in SITE_ANALYSIS.md (dpsnc.net/Page/2042)",
+      "repo": "repac",
+      "status": "completed",
+      "url": "https://github.com/riverside-pirates/repac/issues/66"
+    }
+  ],
   "contributors": [
-    "drews"
+    "jasperdps"
   ]
 }
