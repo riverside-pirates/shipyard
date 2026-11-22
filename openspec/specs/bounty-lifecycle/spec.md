@@ -1,7 +1,7 @@
 # Bounty Lifecycle Specification
 
 ## Purpose
-The stages a bounty passes through from posted to shipped, what each stage is in GitHub terms, and who moves it. The README diagram is the picture; this is the contract. People move bounties by hand: see `automation`.
+The stages a bounty passes through from posted to shipped, what each stage is in GitHub terms, and who moves it. The README diagram is the picture; this is the contract. People move bounties by hand; no workflow runs in this repo.
 
 ## Requirements
 

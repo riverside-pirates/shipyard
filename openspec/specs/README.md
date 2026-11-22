@@ -12,7 +12,8 @@ Read in this order:
   status label each stage is, and who moves it.
 - `sea-worthiness` - what a pull request must show before it merges, and which of the
   three checklists says so.
-- `automation` - Shipyard runs none. What the three retired workflows did, what each got
-  wrong, and the conditions a future one has to meet.
+
+Shipyard runs no GitHub Actions. Three workflows were removed on 2026-11-22; `git log
+-- .github/workflows` has the code and the reasons.
 
 Check them with `openspec validate --specs --strict`.
