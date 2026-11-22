@@ -1,0 +1,17 @@
+schema: spec-driven
+
+# Constraints an agent cannot infer by reading the repo.
+context: |
+  Shipyard is the coordination hub for the riverside-pirates GitHub org: Riverside High
+  School CS students find bounties here and build them in the project repos. Readers are
+  high school beginners; the teacher is Mr. Byers.
+
+  - openspec/specs/ says what Shipyard is today, one flat folder per capability (the CLI
+    reads one level). openspec/specs/README.md is the index. Start with shipyard-model.
+  - Specs are written from what the repo and GitHub show. A fact that was measured carries
+    its date. A hole is named as a hole, never filled with a guess.
+  - Shipyard runs no automation (see specs/automation). The process is people, labels,
+    templates and docs.
+  - Student data: GitHub logins, names and emails never go into tracked files, commits,
+    issues or PR text in this org. Specs name roles (crew member, reviewer), not people.
+  - Branch + PR. Never rebase or force-push main.
